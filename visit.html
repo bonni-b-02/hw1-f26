@@ -20,7 +20,7 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="exhibit.html">Current Exhibits</a></li>
+        <li><a href="exhibits.html">Current Exhibits</a></li> <!-- another bug, typo in source linking-->
         <li><a href="hours.html">Hours and Admission</a></li>
        <li> <a href="visit.html">Plan Your Visit</a> </li> <!-- bug 03 -->
       </ul>
@@ -28,7 +28,7 @@
   </header>
 
   <main>
-    <h1>Plan Your Visit</h1>
+    <h2>Plan Your Visit</h2>
 
     <section>
       <h2>Getting to the Museum</h2> <!-- bug #04 (you could argue whether this is a bug or not.) In the correct visit.png file, 
@@ -46,10 +46,10 @@
         Bike racks are available near the main entrance. Public parking structures are located throughout downtown Ann Arbor, and some street parking is available nearby. Visitors should allow extra time for parking during major city events.
       </p>
 
-      <figure>
+      <figure> <!-- bug in src i found as well-->
           <img
             
-            src="images/Nickels_Arcade,_State_Street,_Ann_Arbor,_MI"
+            src="images/Nickels_Arcade,_State_Street,_Ann_Arbor,_MI.jpg"
             alt="street view of nickels arcade on a sunny day"
             width="800">
 
@@ -136,7 +136,7 @@
     <p>&copy; 2026 Ann Arbor Art Museum</p> <!-- bug 09-->
 
     <p>
-      <a href="mailto:info@annarborartmuseum.example">Email the museum</a>
+    Contact: <a href="mailto:info@annarborartmuseum.example">mailto:info@annarborartmuseum.example</a> <!-- bug 10 (i believe?)-->
     </p>
   </footer>
 </body>
